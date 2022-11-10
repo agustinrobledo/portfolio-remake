@@ -4,7 +4,7 @@ import Wrapper from "../src/components/Wrapper";
 
 export default function Home() {
   return (
-    <Wrapper>
+    <Wrapper className={"font-sans"}>
       <>
         <Hero />
         <Experience />

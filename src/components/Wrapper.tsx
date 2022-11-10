@@ -1,10 +1,11 @@
 type PropsType = {
   children: JSX.Element | string;
+  className?: string;
 };
 
-const Wrapper = ({ children, ...otherProps }: PropsType) => {
+const Wrapper = ({ children, className, ...otherProps }: PropsType) => {
   return (
-    <div className="max-w-screen-xl mx-auto" {...otherProps}>
+    <div className={`max-w-screen-xl mx-auto ${className}`} {...otherProps}>
       {children}
     </div>
   );
