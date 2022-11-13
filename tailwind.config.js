@@ -12,6 +12,9 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-juplus)", ...fontFamily.sans],
       },
+      colors: {
+        yellow: "#FAFF0F",
+      },
     },
   },
   plugins: [],

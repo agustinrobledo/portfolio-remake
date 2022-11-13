@@ -57,7 +57,8 @@ const Experience = () => {
   }, []);
 
   return (
-    <section>
+    <section className="sticky top-0">
+      <h2>EXPERIENCIA:</h2>
       <p>
         Soy desarrollador fullstack con experiencia formal en Desarrollo
         Frontend, usando las siguientes tecnologías:
