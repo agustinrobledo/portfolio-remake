@@ -57,8 +57,10 @@ const Experience = () => {
   }, []);
 
   return (
-    <section className="sticky top-0">
-      <h2>EXPERIENCIA:</h2>
+    <section className="flex flex-col gap-2">
+      <div className="bg-black sticky top-16 py-4">
+        <h2 className="sticky top-20 text-2xl font-bold">- EXPERIENCIA:</h2>
+      </div>
       <p>
         Soy desarrollador fullstack con experiencia formal en Desarrollo
         Frontend, usando las siguientes tecnologías:
