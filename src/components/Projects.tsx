@@ -10,12 +10,14 @@ const Projects = () => {
       <p>Actualmente he estado trabajando de manera formal en este proyecto:</p>
       <Accordion.Root type="multiple">
         <Accordion.Item value="item-1">
-          <Accordion.Header className="text-2xl font-bold my-2">
-            <Accordion.Trigger>
+          <Accordion.Header className="text-2xl font-bold my-2 p-4 border border-white bg-black hover:bg-white hover:text-black rounded duration-300">
+            <Accordion.Trigger className="w-full flex justify-start">
               <strong>AWER - REVIEWS</strong>
             </Accordion.Trigger>
           </Accordion.Header>
-          <Accordion.AccordionContent className="flex flex-row gap-2">
+          <Accordion.AccordionContent
+            className={`${styles.AccordionContent} flex flex-row gap-2`}
+          >
             <div className="flex flex-col w-1/2">
               <p>
                 AWER Es una plataforma donde los usuarios pueden dejar reviews o

@@ -58,7 +58,7 @@ const Experience = () => {
 
   return (
     <section className="flex flex-col gap-2">
-      <div className="bg-black sticky top-16 py-4">
+      <div className="bg-black sticky z-10 top-14 py-4">
         <h2 className="sticky top-20 text-2xl font-bold">- EXPERIENCIA:</h2>
       </div>
       <p>
