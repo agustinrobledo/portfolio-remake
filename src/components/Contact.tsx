@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section className="flex flex-col gap-2">
+    <section id="contact" className="flex flex-col gap-2">
       <div>
         <h2 className="sticky top-20 text-2xl font-bold">- CONTACTO</h2>
       </div>

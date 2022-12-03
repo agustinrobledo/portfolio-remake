@@ -3,9 +3,9 @@ import React from "react";
 
 const AsideInfo = () => {
   return (
-    <div className="z-20 bg-black rounded border-white border-4 h-80 mt-10 w-32 hidden lg:flex flex-col gap-6 justify-center fixed right-20">
+    <div className="z-20 bg-black rounded border-white border-4 h-96 mt-10 w-36 hidden lg:flex flex-col gap-6 justify-center fixed right-20">
       <div
-        className="rotate-180 flex- flex-col h-full justify-center"
+        className="rotate-180 flex flex-col h-full justify-center"
         style={{ writingMode: "vertical-rl" }}
       >
         <h1>AGUSTIN ROBLEDO</h1>
