@@ -65,7 +65,7 @@ const Experience = () => {
         Soy desarrollador fullstack con experiencia formal en Desarrollo
         Frontend, usando las siguientes tecnologías:
       </p>
-      <ul className="flex justify-around">
+      <ul className="flex justify-around text-xl py-6">
         <li>React</li>
         <li>Next.js</li>
         <li>Vue</li>

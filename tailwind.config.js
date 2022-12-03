@@ -8,6 +8,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      desktop: "1300px",
+    },
     extend: {
       fontFamily: {
         sans: ["var(--font-juplus)", ...fontFamily.sans],

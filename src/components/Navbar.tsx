@@ -20,9 +20,27 @@ const Navbar = () => {
   return (
     <nav className="max-w-screen-xl z-10 mx-auto bg-black sticky top-0 py-6 px-2">
       <div className="flex flex-row gap-2">
-        <button onClick={() => handleScroll(experienceRef)}>EXPERIENCIA</button>
-        <button onClick={() => handleScroll(projectsRef)}>PROYECTOS</button>
-        <button onClick={() => handleScroll(contactRef)}>SOBRE MÍ</button>
+        <span className="block desktop:hidden text-xl">
+          Fernando Agustin Robledo
+        </span>
+        <button
+          className="hidden desktop:block"
+          onClick={() => handleScroll(experienceRef)}
+        >
+          EXPERIENCIA
+        </button>
+        <button
+          className="hidden desktop:block"
+          onClick={() => handleScroll(projectsRef)}
+        >
+          PROYECTOS
+        </button>
+        <button
+          className="hidden desktop:block"
+          onClick={() => handleScroll(contactRef)}
+        >
+          SOBRE MÍ
+        </button>
       </div>
     </nav>
   );

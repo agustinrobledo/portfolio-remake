@@ -5,19 +5,20 @@ import Navbar from "../src/components/Navbar";
 import AsideInfo from "../src/components/AsideInfo";
 import Projects from "../src/components/Projects";
 import Contact from "../src/components/Contact";
-import { RefObject, useRef } from "react";
 
 export default function Home() {
   return (
-    <Wrapper className={"font-sans"}>
-      <div className="px-3">
-        <Navbar />
-        <AsideInfo />
-        <Hero />
-        <Experience />
-        <Projects />
-        <Contact />
-      </div>
-    </Wrapper>
+    <>
+      <Wrapper className={"font-sans"}>
+        <div className="px-3 w-4/5">
+          <Navbar />
+          <AsideInfo />
+          <Hero />
+          <Experience />
+          <Projects />
+          <Contact />
+        </div>
+      </Wrapper>
+    </>
   );
 }
