@@ -5,9 +5,12 @@ const Hero = () => {
         <h1>MI NOMBRE ES AGUSTIN ROBLEDO</h1>
         <p>
           SOY DESARROLLADOR FRONTEND, ME APASIONA CREAR LAS MEJORES EXPERIENCIAS
-          DE USUARIO Y AMO LO QUE HAGO.
+          DE USUARIO, ESTA PAGINA ES UNA RECOPILACIÓN DE MIS ULTIMOS TRABAJOS Y
+          PROYECTOS.
         </p>
-        <button className="bg-yellow text-black">AGENDEMOS UNA CALL!</button>
+        <button className="bg-yellow text-black hoverable mt-2">
+          HABLEMOS!
+        </button>
       </div>
     </section>
   );

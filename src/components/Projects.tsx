@@ -3,7 +3,7 @@ import styles from "../../styles/accordion.module.css";
 
 const Projects = () => {
   return (
-    <section id="projects" className="flex flex-col gap-2">
+    <section id="projects" className="flex flex-col gap-2 text-xl">
       <div className="bg-black sticky top-16 py-4">
         <h2 className="sticky top-20 text-2xl font-bold">- PROYECTOS:</h2>
       </div>
@@ -11,7 +11,7 @@ const Projects = () => {
       <Accordion.Root type="single" collapsible>
         <Accordion.Item value="item-1">
           <Accordion.Header className="text-2xl font-bold my-2 border border-white bg-black hover:bg-white hover:text-black rounded duration-300">
-            <Accordion.Trigger className="w-full p-12 flex justify-start">
+            <Accordion.Trigger className="hoverable w-full p-12 flex justify-start">
               <strong>AWER - REVIEWS</strong>
             </Accordion.Trigger>
           </Accordion.Header>

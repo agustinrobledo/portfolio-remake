@@ -24,19 +24,19 @@ const Navbar = () => {
           Fernando Agustin Robledo
         </span>
         <button
-          className="hidden desktop:block"
+          className="hidden desktop:block hoverable"
           onClick={() => handleScroll(experienceRef)}
         >
           EXPERIENCIA
         </button>
         <button
-          className="hidden desktop:block"
+          className="hidden desktop:block hoverable"
           onClick={() => handleScroll(projectsRef)}
         >
           PROYECTOS
         </button>
         <button
-          className="hidden desktop:block"
+          className="hidden desktop:block hoverable"
           onClick={() => handleScroll(contactRef)}
         >
           SOBRE MÍ

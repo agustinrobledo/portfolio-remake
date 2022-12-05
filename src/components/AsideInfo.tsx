@@ -6,7 +6,7 @@ const AsideInfo = () => {
   return (
     <div className="z-20 bg-black rounded py-6 border-white border-4 mt-10 w-36 hidden desktop:flex flex-col gap-6 justify-center translate-y-1/2 fixed right-10">
       <div
-        className="rotate-180 flex flex-col justify-center pt-12 mt-6"
+        className="rotate-180 text- xl flex flex-col justify-center pt-12 mt-6"
         style={{ writingMode: "vertical-rl" }}
       >
         <h1>AGUSTIN ROBLEDO</h1>
@@ -19,7 +19,7 @@ const AsideInfo = () => {
           target="_blank"
         >
           <Image
-            className="invert"
+            className="invert hoverable"
             src="/linkedin.png"
             alt="linkedin"
             width="32"
@@ -28,7 +28,7 @@ const AsideInfo = () => {
         </Link>
         <Link href="https://github.com/agustinrobledo" target="_blank">
           <Image
-            className="invert"
+            className="invert hoverable"
             src="/github.png"
             alt="github"
             width="32"
