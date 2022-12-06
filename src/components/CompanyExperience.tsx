@@ -1,19 +1,19 @@
 import * as Accordion from "@radix-ui/react-accordion";
 import styles from "../../styles/accordion.module.css";
-import { ChevronDownIcon } from "@radix-ui/react-icons";
 
 const CompanyExperience = () => {
   return (
     <Accordion.Root type="single" collapsible className="flex flex-col gap-4">
       <Accordion.Item value={"1"} key="Henry">
-        <Accordion.Header className="text-2xl font-bold my-2 border border-white bg-black hover:bg-white hover:text-black rounded duration-300">
+        <Accordion.Header
+          className={`${styles.AccordionHeader} text-2xl font-bold my-2 border border-white bg-black hover:bg-white hover:text-black rounded duration-300`}
+        >
           <Accordion.Trigger className="hoverable w-full p-12 flex justify-between">
             <strong>Henry</strong>
-            <ChevronDownIcon />
           </Accordion.Trigger>
         </Accordion.Header>
         <Accordion.AccordionContent
-          className={`${styles.AccordionContent} text-xl bg-white text-black p-4 rounded`}
+          className={`${styles.AccordionContent} text-xl border border-white p-4 rounded`}
         >
           <div>
             <p>Desde Septiembre hasta Octubre del año 2021</p>
@@ -34,14 +34,15 @@ const CompanyExperience = () => {
         </Accordion.AccordionContent>
       </Accordion.Item>
       <Accordion.Item value={"2"} key="Wantfrom Company">
-        <Accordion.Header className="text-2xl font-bold my-2 border border-white bg-black hover:bg-white hover:text-black rounded duration-300">
+        <Accordion.Header
+          className={`${styles.AccordionHeader} text-2xl font-bold my-2 border border-white bg-black hover:bg-white hover:text-black rounded duration-300`}
+        >
           <Accordion.Trigger className="hoverable w-full p-12 flex justify-between">
             <strong>Wantfrom Company</strong>
-            <ChevronDownIcon />
           </Accordion.Trigger>
         </Accordion.Header>
         <Accordion.AccordionContent
-          className={`${styles.AccordionContent} text-xl bg-white text-black p-4 rounded`}
+          className={`${styles.AccordionContent} text-xl border border-white p-4 rounded`}
         >
           <div>
             <p>Desde Marzo hasta Junio del año 2022</p>
@@ -58,14 +59,15 @@ const CompanyExperience = () => {
         </Accordion.AccordionContent>
       </Accordion.Item>
       <Accordion.Item value={"3"} key="High Impact">
-        <Accordion.Header className="text-2xl font-bold my-2 border border-white bg-black hover:bg-white hover:text-black rounded duration-300">
+        <Accordion.Header
+          className={`${styles.AccordionHeader} text-2xl font-bold my-2 border border-white bg-black hover:bg-white hover:text-black rounded duration-300`}
+        >
           <Accordion.Trigger className="hoverable w-full p-12 flex justify-between">
             <strong>High Impact</strong>
-            <ChevronDownIcon />
           </Accordion.Trigger>
         </Accordion.Header>
         <Accordion.AccordionContent
-          className={`${styles.AccordionContent} text-xl bg-white text-black p-4 rounded`}
+          className={`${styles.AccordionContent} text-xl border border-white p-4 rounded`}
         >
           <div>
             <p>Desde Junio hasta la actualidad</p>

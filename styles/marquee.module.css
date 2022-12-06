@@ -1,0 +1,30 @@
+.marquee {
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  box-shadow: 0 0 5px 10px black;
+  mask-image: linear-gradient(
+    to right,
+    hsl(0 0% 0% / 0),
+    hsl(0 0% 0% / 1) 20%,
+    hsl(0 0% 0% / 1) 80%,
+    hsl(0 0% 0% / 0)
+  );
+}
+.marquee__content {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: 1rem;
+  animation: scroll 180s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(100);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

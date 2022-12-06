@@ -52,22 +52,10 @@ const Experience = () => {
   ];
 
   return (
-    <section className="flex flex-col gap-2 text-xl">
+    <section className="flex flex-col gap-2 text-xl mt-24">
       <div id="experience" className="bg-black sticky z-10 top-14 py-4">
         <h2 className="sticky top-20 text-2xl font-bold">- EXPERIENCIA:</h2>
       </div>
-      <p>
-        Soy desarrollador fullstack con experiencia formal en Desarrollo
-        Frontend, usando las siguientes tecnologías:
-      </p>
-      <ul className="pl-2 flex flex-col gap-2 justify-around text-xl py-6">
-        <li className="hoverable text-4xl w-fit">React</li>
-        <li className="hoverable text-4xl w-fit">Next.js</li>
-        <li className="hoverable text-4xl w-fit">Vue</li>
-        <li className="hoverable text-4xl w-fit">GraphQL</li>
-        <li className="hoverable text-4xl w-fit">Next-Auth</li>
-        <li className="hoverable text-4xl w-fit">Recoil - Redux</li>
-      </ul>
       <p>Empresas en las que he trabajado:</p>
       <CompanyExperience />
     </section>

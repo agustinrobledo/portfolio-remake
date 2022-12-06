@@ -6,6 +6,7 @@ import AsideInfo from "../src/components/AsideInfo";
 import Projects from "../src/components/Projects";
 import Contact from "../src/components/Contact";
 import Cursor from "../src/components/Cursor";
+import Technologies from "../src/components/Technologies";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
           <Navbar />
           <AsideInfo />
           <Hero />
+          <Technologies />
           <Experience />
           <Projects />
           <Contact />
