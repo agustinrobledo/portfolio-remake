@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -18,7 +17,7 @@ const AsideInfo = () => {
           href="https://linkedin.com/in/fernando-agustin-robledo"
           target="_blank"
         >
-          <Image
+          <img
             className="invert hoverable"
             src="/linkedin.png"
             alt="linkedin"
@@ -27,7 +26,7 @@ const AsideInfo = () => {
           />
         </Link>
         <Link href="https://github.com/agustinrobledo" target="_blank">
-          <Image
+          <img
             className="invert hoverable"
             src="/github.png"
             alt="github"

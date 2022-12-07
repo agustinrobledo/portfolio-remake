@@ -4,7 +4,7 @@ import styles from "../../styles/marquee.module.css";
 
 const Technologies = () => {
   return (
-    <div className="font-sans text-2xl">
+    <div className="text-2xl">
       <div className="flex justify-center">
         <p>
           Soy desarrollador fullstack con experiencia formal en Desarrollo

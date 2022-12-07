@@ -9,6 +9,7 @@ body {
   padding: 0;
   margin: 0;
   cursor: none;
+  font-family: "Inter";
 }
 
 body :hover {
@@ -47,4 +48,9 @@ a {
     color: white;
     background: black;
   }
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/JuPlusLight.otf");
 }

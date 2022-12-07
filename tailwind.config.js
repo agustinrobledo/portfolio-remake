@@ -12,9 +12,6 @@ module.exports = {
       desktop: "1300px",
     },
     extend: {
-      fontFamily: {
-        sans: ["var(--font-juplus)", ...fontFamily.sans],
-      },
       colors: {
         yellow: "#FAFF0F",
       },

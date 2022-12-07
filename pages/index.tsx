@@ -11,7 +11,7 @@ import Technologies from "../src/components/Technologies";
 export default function Home() {
   return (
     <>
-      <Wrapper className={"font-sans"}>
+      <Wrapper>
         <div className="px-3 w-4/5">
           <Navbar />
           <AsideInfo />
