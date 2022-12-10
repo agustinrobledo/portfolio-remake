@@ -1,22 +1,25 @@
 const Contact = () => {
   return (
-    <section id="contact" className="flex flex-col gap-2 text-xl">
-      <div>
-        <h2 className="sticky top-20 text-2xl font-bold">- CONTACTO</h2>
+    <section id="contact" className="flex flex-col text-xl min-h-screen">
+      <div className="bg-black sticky h-1/5 z-10 top-14 py-4">
+        <h2 className="text-2xl font-bold">- CONTACTO</h2>
       </div>
-      <div>
-        <h2 className="text-xl">¿Quieres que trabajemos juntos? Hablemos</h2>
-        <div className="flex flex-col underline">
-          <li>
-            <a>Linkedin</a>
+      <div className="flex flex-col h-screen content-center justify-center gap-2 md:gap-6 text-center text-3xl  md:text-6xl">
+        <h2>¿Quieres que trabajemos juntos?</h2>
+        <span>Hablemos!</span>
+        <ul className="flex flex-col underline desktop:flex-row justify-around gap-2 text-2xl md:text-4xl mt-4 md:mt-24 md:py-10">
+          <li className="hoverable">
+            <a href="https://linkedin.com/in/fernando-agustin-robledo">
+              Linkedin
+            </a>
           </li>
-          <li>
-            <a>Github</a>
+          <li className="hoverable">
+            <a href="https://github.com/agustinrobledo">Github</a>
           </li>
-          <li>
-            <span>agustinrobledo59.ar@gmail.com</span>
+          <li className="hoverable">
+            <a href="mailto:agustinrobledo59.ar@gmail.com">Mail</a>
           </li>
-        </div>
+        </ul>
       </div>
     </section>
   );

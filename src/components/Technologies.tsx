@@ -12,37 +12,37 @@ const Technologies = () => {
         </p>
       </div>
       <div className={`${styles.marquee} py-24 min-w-screen`}>
-        <ul aria-hidden="true" className={`${styles.marquee__content} pl-2`}>
-          <li className="hoverable text-6xl w-fit">React -</li>
-          <li className="hoverable text-6xl w-fit">Next.js -</li>
-          <li className="hoverable text-6xl w-fit">Vue -</li>
-          <li className="hoverable text-6xl w-fit">GraphQL -</li>
-          <li className="hoverable text-6xl w-fit">Next-Auth -</li>
-          <li className="hoverable text-6xl w-fit">Recoil - Redux -</li>
-          <li className="hoverable text-6xl w-fit">Strapi -</li>
-          <li className="hoverable text-6xl w-fit">Express -</li>
-          <li className="hoverable text-6xl w-fit">Node.js -</li>
-          <li className="hoverable text-6xl w-fit">React Native -</li>
-          <li className="hoverable text-6xl w-fit">React -</li>
-          <li className="hoverable text-6xl w-fit">Next.js -</li>
-          <li className="hoverable text-6xl w-fit">Vue -</li>
-          <li className="hoverable text-6xl w-fit">GraphQL -</li>
-          <li className="hoverable text-6xl w-fit">Next-Auth -</li>
-          <li className="hoverable text-6xl w-fit">Recoil - Redux -</li>
-          <li className="hoverable text-6xl w-fit">Strapi -</li>
-          <li className="hoverable text-6xl w-fit">Express -</li>
-          <li className="hoverable text-6xl w-fit">Node.js -</li>
-          <li className="hoverable text-6xl w-fit">React Native -</li>
-          <li className="hoverable text-6xl w-fit">React -</li>
-          <li className="hoverable text-6xl w-fit">Next.js -</li>
-          <li className="hoverable text-6xl w-fit">Vue -</li>
-          <li className="hoverable text-6xl w-fit">GraphQL -</li>
-          <li className="hoverable text-6xl w-fit">Next-Auth -</li>
-          <li className="hoverable text-6xl w-fit">Recoil - Redux -</li>
-          <li className="hoverable text-6xl w-fit">Strapi -</li>
-          <li className="hoverable text-6xl w-fit">Express -</li>
-          <li className="hoverable text-6xl w-fit">Node.js -</li>
-          <li className="hoverable text-6xl w-fit">React Native -</li>
+        <ul aria-hidden="true" className={`${styles.marquee__content} text-2xl lg:text-6xl pl-2`}>
+          <li className="hoverable w-fit">React -</li>
+          <li className="hoverable w-fit">Next.js -</li>
+          <li className="hoverable w-fit">Vue -</li>
+          <li className="hoverable w-fit">GraphQL -</li>
+          <li className="hoverable w-fit">Next-Auth -</li>
+          <li className="hoverable w-fit">Recoil - Redux -</li>
+          <li className="hoverable w-fit">Strapi -</li>
+          <li className="hoverable w-fit">Express -</li>
+          <li className="hoverable w-fit">Node.js -</li>
+          <li className="hoverable w-fit">React Native -</li>
+          <li className="hoverable w-fit">React -</li>
+          <li className="hoverable w-fit">Next.js -</li>
+          <li className="hoverable w-fit">Vue -</li>
+          <li className="hoverable w-fit">GraphQL -</li>
+          <li className="hoverable w-fit">Next-Auth -</li>
+          <li className="hoverable w-fit">Recoil - Redux -</li>
+          <li className="hoverable w-fit">Strapi -</li>
+          <li className="hoverable w-fit">Express -</li>
+          <li className="hoverable w-fit">Node.js -</li>
+          <li className="hoverable w-fit">React Native -</li>
+          <li className="hoverable w-fit">React -</li>
+          <li className="hoverable w-fit">Next.js -</li>
+          <li className="hoverable w-fit">Vue -</li>
+          <li className="hoverable w-fit">GraphQL -</li>
+          <li className="hoverable w-fit">Next-Auth -</li>
+          <li className="hoverable w-fit">Recoil - Redux -</li>
+          <li className="hoverable w-fit">Strapi -</li>
+          <li className="hoverable w-fit">Express -</li>
+          <li className="hoverable w-fit">Node.js -</li>
+          <li className="hoverable w-fit">React Native -</li>
         </ul>
       </div>
     </div>

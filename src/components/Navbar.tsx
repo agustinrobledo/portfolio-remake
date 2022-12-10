@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="max-w-screen-xl z-10 mx-auto bg-black sticky top-0 py-6 px-2">
+    <nav className="max-w-screen-xl z-10 bg-black sticky top-0 py-6 px-2">
       <div className="flex flex-row gap-2">
         <span className="block desktop:hidden text-xl">
           Fernando Agustin Robledo
@@ -39,7 +39,7 @@ const Navbar = () => {
           className="hidden desktop:block hoverable"
           onClick={() => handleScroll(contactRef)}
         >
-          SOBRE MÍ
+          CONTACTO
         </button>
       </div>
     </nav>

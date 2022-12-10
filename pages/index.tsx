@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Wrapper>
-        <div className="px-3 w-4/5">
+        <div className="px-3 w-full md:w-4/5">
           <Navbar />
           <AsideInfo />
           <Hero />

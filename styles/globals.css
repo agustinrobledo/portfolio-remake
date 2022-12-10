@@ -10,10 +10,8 @@ body {
   margin: 0;
   cursor: none;
   font-family: "Inter";
-}
-
-body :hover {
-  cursor: none;
+  background-color: black;
+  color: white
 }
 
 a {
@@ -25,22 +23,7 @@ a {
   box-sizing: border-box;
 }
 
-.cursor {
-  pointer-events: none;
-}
-
-.cursor__ball {
-  position: fixed;
-  top: 0;
-  left: 0;
-  mix-blend-mode: difference;
-  z-index: 1000;
-}
-.cursor__ball circle {
-  fill: #f7f8fa;
-}
-
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -48,6 +31,32 @@ a {
     color: white;
     background: black;
   }
+} */
+
+@media screen and (min-width: 1300px){
+  body{
+    cursor: none,
+  }
+
+  body :hover {
+    cursor: none;
+  }
+  
+  .cursor {
+    pointer-events: none
+  }
+
+  .cursor__ball {
+    position: fixed;
+    top: 0;
+    left: 0;
+    mix-blend-mode: difference;
+    z-index: 1000;
+  }
+  .cursor__ball circle {
+    fill: #f7f8fa;
+  }
+
 }
 
 @font-face {

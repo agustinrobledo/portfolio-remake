@@ -13,7 +13,7 @@ const CompanyExperience = () => {
           </Accordion.Trigger>
         </Accordion.Header>
         <Accordion.AccordionContent
-          className={`${styles.AccordionContent} text-xl border border-white p-4 rounded`}
+          className={`${styles.AccordionContent} w-fit text-xl border border-white p-4 rounded`}
         >
           <div>
             <p>Desde Septiembre hasta Octubre del año 2021</p>
@@ -42,7 +42,7 @@ const CompanyExperience = () => {
           </Accordion.Trigger>
         </Accordion.Header>
         <Accordion.AccordionContent
-          className={`${styles.AccordionContent} text-xl border border-white p-4 rounded`}
+          className={`${styles.AccordionContent} w-fit text-xl border border-white p-4 rounded`}
         >
           <div>
             <p>Desde Marzo hasta Junio del año 2022</p>
@@ -67,7 +67,7 @@ const CompanyExperience = () => {
           </Accordion.Trigger>
         </Accordion.Header>
         <Accordion.AccordionContent
-          className={`${styles.AccordionContent} text-xl border border-white p-4 rounded`}
+          className={`${styles.AccordionContent} w-fit text-xl border border-white p-4 rounded`}
         >
           <div>
             <p>Desde Junio hasta la actualidad</p>

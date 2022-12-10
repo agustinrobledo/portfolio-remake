@@ -8,10 +8,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      desktop: "1300px",
-    },
     extend: {
+      screens: {
+        desktop: "1300px",
+      },
       colors: {
         yellow: "#FAFF0F",
       },
