@@ -3,12 +3,12 @@ import styles from "../../styles/accordion.module.css";
 
 const Projects = () => {
   return (
-    <section id="projects" className="flex flex-col gap-2 text-xl">
+    <section id="projects" className="flex flex-col gap-2 text-2xl">
       <div className="bg-black sticky top-16 py-4">
-        <h2 className="sticky top-20 text-2xl font-bold">- PROYECTOS:</h2>
+        <h2 className="sticky top-20 text-6xl font-bold">- PROYECTOS:</h2>
       </div>
       <p>Actualmente he estado trabajando de manera formal en este proyecto:</p>
-      <Accordion.Root type="single" collapsible>
+      <Accordion.Root defaultValue="item-1" type="single" collapsible>
         <Accordion.Item value="item-1">
           <Accordion.Header className="text-2xl font-bold my-2 border border-white bg-black hover:bg-white hover:text-black rounded duration-300">
             <Accordion.Trigger className="hoverable w-full p-12 flex justify-start">
@@ -18,7 +18,7 @@ const Projects = () => {
           <Accordion.AccordionContent
             className={`${styles.AccordionContent} flex flex-row gap-2 py-4`}
           >
-            <div className="flex flex-col desktop:w-1/2 ">
+            <div className="flex flex-col text-xl desktop:w-1/2 ">
               <p>
                 AWER Es una plataforma donde los usuarios pueden dejar reviews o
                 participar de encuestas y juegos para ganar premios en sus

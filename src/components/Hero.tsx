@@ -14,7 +14,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="flex flex-col justify-center h-screen lg:text-4xl font-bold leading-normal">
+    <section className="flex flex-col justify-center h-screen text-2xl lg:text-4xl font-bold leading-normal">
       <div>
         <h1>MI NOMBRE ES AGUSTIN ROBLEDO</h1>
         <p>

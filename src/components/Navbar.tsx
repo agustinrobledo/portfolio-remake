@@ -14,11 +14,11 @@ const Navbar = () => {
   }, []);
 
   const handleScroll = (ref: RefObject<HTMLElement | null | undefined>) => {
-    ref?.current?.scrollIntoView({});
+    ref?.current?.scrollIntoView({block:"center"});
   };
 
   return (
-    <nav className="max-w-screen-xl z-10 bg-black sticky top-0 py-6 px-2">
+    <nav className="max-w-screen-xl z-20 bg-black sticky top-0 py-6 px-2">
       <div className="flex flex-row gap-2">
         <span className="block desktop:hidden text-xl">
           Fernando Agustin Robledo

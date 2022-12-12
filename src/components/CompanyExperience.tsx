@@ -3,12 +3,12 @@ import styles from "../../styles/accordion.module.css";
 
 const CompanyExperience = () => {
   return (
-    <Accordion.Root type="single" collapsible className="flex flex-col gap-4">
+    <Accordion.Root id="experience" type="single" collapsible className="flex flex-col mt-12 gap-16">
       <Accordion.Item value={"1"} key="Henry">
         <Accordion.Header
           className={`${styles.AccordionHeader} text-2xl font-bold my-2 border border-white bg-black hover:bg-white hover:text-black rounded duration-300`}
         >
-          <Accordion.Trigger className="hoverable w-full p-12 flex justify-between">
+          <Accordion.Trigger className="hoverable w-full p-12 flex">
             <strong>Henry</strong>
           </Accordion.Trigger>
         </Accordion.Header>
@@ -37,7 +37,7 @@ const CompanyExperience = () => {
         <Accordion.Header
           className={`${styles.AccordionHeader} text-2xl font-bold my-2 border border-white bg-black hover:bg-white hover:text-black rounded duration-300`}
         >
-          <Accordion.Trigger className="hoverable w-full p-12 flex justify-between">
+          <Accordion.Trigger className="hoverable w-full p-12 flex">
             <strong>Wantfrom Company</strong>
           </Accordion.Trigger>
         </Accordion.Header>
@@ -62,7 +62,7 @@ const CompanyExperience = () => {
         <Accordion.Header
           className={`${styles.AccordionHeader} text-2xl font-bold my-2 border border-white bg-black hover:bg-white hover:text-black rounded duration-300`}
         >
-          <Accordion.Trigger className="hoverable w-full p-12 flex justify-between">
+          <Accordion.Trigger className="hoverable w-full p-12 flex">
             <strong>High Impact</strong>
           </Accordion.Trigger>
         </Accordion.Header>

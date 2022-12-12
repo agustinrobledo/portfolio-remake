@@ -52,7 +52,7 @@ const Cursor = () => {
   }, []);
 
   return (
-    <div className="cursor hidden md:block">
+    <div className="cursor hidden lg:block">
       <div ref={bigBallRef} className="cursor__ball cursor__ball--big ">
         <svg height="30" width="30">
           <circle cx="15" cy="15" r="12" strokeWidth="0"></circle>
