@@ -12,7 +12,10 @@ const Technologies = () => {
         </p>
       </div>
       <div className={`${styles.marquee} py-24`}>
-        <ul aria-hidden="true" className={`${styles.marquee__content} text-2xl lg:text-6xl pl-2`}>
+        <ul
+          aria-hidden="true"
+          className={`${styles.marquee__content} text-2xl lg:text-4xl pl-2`}
+        >
           <li className="hoverable w-fit">React -</li>
           <li className="hoverable w-fit">Next.js -</li>
           <li className="hoverable w-fit">Vue -</li>

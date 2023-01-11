@@ -54,13 +54,13 @@ const Experience = () => {
   return (
     <div className="min-h-screen">
       <div className="bg-black sticky z-10 top-14 py-4">
-        <h2 className="sticky top-20 text-6xl font-bold">- EXPERIENCIA:</h2>
+        <h2 className="sticky top-20 text-4xl font-bold">- EXPERIENCIA:</h2>
       </div>
       <p className="text-2xl">Empresas en las que he trabajado:</p>
-      <section className="flex flex-col gap-6 text-2xl mt-24 justify-center bg-red-500">
-      <div className="bg-blue-500">
-        <CompanyExperience />
-      </div>
+      <section className="flex flex-col gap-6 text-2xl mt-24 justify-center">
+        <div className="">
+          <CompanyExperience />
+        </div>
       </section>
     </div>
   );

@@ -14,7 +14,7 @@ const Navbar = () => {
   }, []);
 
   const handleScroll = (ref: RefObject<HTMLElement | null | undefined>) => {
-    ref?.current?.scrollIntoView({block:"center"});
+    ref?.current?.scrollIntoView({ block: "center" });
   };
 
   return (

@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section id="projects" className="flex flex-col gap-2 text-2xl">
       <div className="bg-black sticky top-16 py-4">
-        <h2 className="sticky top-20 text-6xl font-bold">- PROYECTOS:</h2>
+        <h2 className="sticky top-20 text-4xl font-bold">- PROYECTOS:</h2>
       </div>
       <p>Actualmente he estado trabajando de manera formal en este proyecto:</p>
       <Accordion.Root defaultValue="item-1" type="single" collapsible>

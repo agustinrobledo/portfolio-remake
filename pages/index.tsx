@@ -8,13 +8,13 @@ import Contact from "../src/components/Contact";
 import Cursor from "../src/components/Cursor";
 import Technologies from "../src/components/Technologies";
 import Head from "next/head";
-
+import { useState } from "react";
 export default function Home() {
   return (
     <>
-    <Head>
-      <title>Agustin Robledo</title>
-    </Head>
+      <Head>
+        <title>Fernando Agustin Robledo</title>
+      </Head>
       <Wrapper>
         <div className="px-3 w-full md:w-4/5">
           <Navbar />
